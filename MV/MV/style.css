@@ -1,0 +1,221 @@
+body {background-image: url(images/bg.jpg);
+      font-family: 'Audiowide', sans-serif;
+      color: white;
+}
+.general {  
+}
+.menu-up {
+    width:1220px;
+    height:100px;
+    text-align: right; 
+    color : white;
+}
+.menu-up ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 15px 0 15px;
+}
+.menu-up ul li:hover{
+    color:greenyellow;
+    cursor: pointer;
+}
+.menu-left {
+    width:200px;
+    float :left;
+    display: block;
+    color: white; 
+}
+.menu-left ul {
+    list-style: none;  
+}
+.menu-left ul li { margin: 5px 0 10px 0;}
+.menu-left ul li:hover {
+    color:greenyellow;
+    cursor: pointer;
+}
+.menu-left h3 {text-align: center; padding-top: 20px;}
+.preview {
+    color: white;
+    width: 1000px;
+    float:left;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.planet {float:left; width:250px; height: 250px;}
+.planet-info {
+    width:300px;
+    height: 250px;
+    float: left;
+    margin: 0 15px 0 15px;
+}
+.ships-info {
+    width: 450px;
+    float: left;
+}
+.ships-name ul{
+    list-style: none;
+}
+
+.ships-name {
+    width: 250px;
+    float:left;
+}
+.ships-lot ul {
+    list-style: none;
+}
+.ships-lot {
+    width: 200px;
+    float: left;
+}
+
+.buildings {
+    width: 450px;
+    float: left;
+}
+.buildings-name ul{
+    list-style: none;
+}
+
+.buildings-name {
+    width: 250px;
+    float:left;
+}
+.buildings-level ul {
+    list-style: none;
+}
+.buildings-level {
+    width: 200px;
+    float: left;
+}
+.all-planet {
+    background-color:  rgba(0, 0, 0, 0.88);
+    color: white;
+    width: 1000px;
+    float: left;
+    margin:15px 0 0 200px;
+
+}
+.planet-box {
+    width: 150px;
+    height: 180px;
+    float: left;
+    margin: 5px ;
+}
+.planet-mini-name {
+    float: left;
+    font-size: 15px;
+    text-align: center;
+}
+.all-bulding {
+    width:1000px;
+    float:left;
+}
+.building {
+    background-color:  rgba(0, 0, 0, 0.88);
+    width: 1000px;
+    height: 200px;
+    float:left;
+    margin: 10px;
+}
+.bulding-jpg {
+    float:left; 
+    width:150px; 
+    height: 150px;
+}
+.bulding-info {
+    width: 600px;
+    height: 200px;
+    float:left;
+}
+.bulding-button {
+    width: 250px;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+.bulding-button a:hover {
+    color:greenyellow;
+    cursor: pointer;
+}
+.bulding-cost-info {
+    width: 250px;
+    height: 150px;
+    float:left;
+}
+.bulding-cost {
+    width: 125px;
+    height: 150px;
+    float:left;
+}
+.bulding-cost ul {list-style: none;}
+
+.all-ships {
+    width:1000px;
+    float:left;
+}
+.one-ship {
+    background-color:  rgba(0, 0, 0, 0.88);
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin:5px;
+}
+.ship-jpg {
+    float:left; 
+    width:150px; 
+    height: 150px;
+}
+.ship-cost-info {
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    float:left;
+}
+.ship-cost-info a {margin-left:50px; }
+.ship-cost {
+    width: 125px;
+    height: 150px;
+    float:left;
+}
+.ship-cost ul {list-style: none;}
+
+.ship-cons {width: 300px; float:left;}
+.ship-lot {width: 100px; float:left;}
+.ship-button {width: 100px; float:left;}
+.ship-button a:hover {
+    color:greenyellow;
+    cursor: pointer;
+}
+.fleet {
+    width:1000px;
+    float:left;
+}
+.fleet-one-ship {
+    width:650px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    float:left;
+    margin: 5px 0 0 0;
+}
+.fleet-ship-name {
+    width:350px;
+    float:left;
+}
+.fleet-ship-lot {
+    width:200px;
+    float:left;
+}
+.fleet-ship-box {
+    width:20px;
+    float:left;
+}
+.fleet-ships-nav {
+    width: 200px;
+    float:left;
+background-color:rgba(0, 0, 0, 0.8);
+}
+fleet-ships-nav a { text-align: center;}
+.fleet-ships-function {
+    width: 200px;
+    float:left;
+background-color:rgba(0, 0, 0, 0.8);
+}

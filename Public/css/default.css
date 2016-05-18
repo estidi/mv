@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide|Russo+One|Exo:400,900|Play&subset=latin-ext,latin);
+
+body {
+    background: url('../img/bg.jpg');
+    padding:0;
+    margin:0;
+    font-size:14px;
+    color:#fafafa;
+    font-family: 'Play', sans-serif;
+    width:100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    font-family: 'Audiowide', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: "Audiowide",sans-serif;
+}
+
+.loginBox {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 36px 29px rgba(0, 0, 0, 0.5);
+ 
+    position: relative;
+    width: 238px;
+    margin: 0 auto;
+}
+.loginBox h1 {margin:15px;}
+.loginBox label {padding:3px;}
+.loginBox input {
+    width:210px;
+    border-radius:5px;
+    background: rgba(1,1,1,0.55);
+    padding:5px;
+    border:1px solid black;
+    box-shadow: 0px 0px 15px 1px rgba(90,90,90,0.5);
+    margin:5px 9px;
+    font-family: 'Audiowide', cursive;
+    transition:box-shadow 0.5s ease-in-out,color 1s ease-in-out;
+    
+}
+ .loginBox input:hover, .loginBox input:focus  {box-shadow: 0px 0px 15px 1px rgba(40,132,155,0.3);color:white;}
+ 
+.loginBox input[type=submit] {
+    padding:10px;
+    font-size:16px;
+    margin:5px 15px;
+    font-family: 'Russo One', sans-serif;
+   // box-shadow: none;
+   // transition:box-shadow 0.5s ease-in-out,color 1s ease-in-out;
+}
+.loginBox input[type=submit]:hover, .loginBox input[type=submit]:focus {
+    padding:10px;
+    font-size:16px;
+    margin:5px 15px;
+    font-family: 'Russo One', sans-serif;
+    //box-shadow: 0px 0px 15px 1px rgba(255,0,0,0.25);
+    //border:1px solid red;
+    //color: white
+}
+.loginBox a {
+    text-decoration:none;
+    color:gray;
+    font-size:14px;
+    font-family: 'Audiowide', cursive;
+    float:right;
+    padding:5px;
+    transition: text-shadow 0.5s ease-out, color 0.5s linear ;
+
+}
+.loginBox a:hover {
+    text-shadow:0px 0px 5px rgb(40,132,155);
+    color:white;
+}
+ 
+footer {
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    background: rgba(0,0,0,0.81);
+    text-align:center;
+    font-size:15px;
+    padding:10px;
+    box-shadow: 0 0 36px 29px rgba(0, 0, 0, 0.84);
+}         
+.overlay {
+                position:absolute;
+                right:0px;
+                top:0px;
+                background:rgba(0,0,0,0.6);
+                z-index:2222;
+                border:1px solid green;
+                padding:10px;
+                font-size: 10px;
+            }
+            .messages {
+                margin:0 auto;
+                position:relative;
+                top:10px;
+                z-index:222;
+                width:100%;
+            }
+            .success {
+                background: rgba(0,255,0,0.1);
+                border:1px solid green;
+
+                color:green;
+                margin-top:5px;
+                padding:10px;
+            }
+            .fail {
+                background: rgba(255,0,0,0.1);
+                border:1px solid red;
+
+                color:red;
+                margin-top:5px;
+                padding:10px;
+            }
+            .wrapper {
+                width: 1050px;
+                
+            }
+            .leftSide {
+                width:250px;
+                margin-right: 50px;
+                float:left;
+                background: rgba(0, 255, 255, 0.15);
+                border-radius: 5px;
+                box-shadow: 0 0 36px 29px rgba(0, 255, 255, 0.15);
+
+            }
+            .rightSide {
+                overflow: hidden;
+                width:750px;
+                float:left;
+                background: rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                box-shadow: 0 0 36px 29px rgba(0, 0, 0, 0.5);
+            }
+            .top {
+                height:50px;
+            }
+            
+            .menu-left {
+    width:200px;
+    float :left;
+    display: block;
+    color: white; 
+}
+.menu-left ul {
+    list-style: none;  
+}
+.menu-left ul li { margin: 5px 0 10px 0;}
+.menu-left ul li:hover {
+    color:greenyellow;
+    cursor: pointer;
+}
+.menu-left h3 {text-align: center; padding-top: 20px;}

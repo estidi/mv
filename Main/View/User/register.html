@@ -1,0 +1,23 @@
+        
+			<h1>Enter the void</h1>
+			<form method="POST" action="/user/register">
+			<div>
+				<label>Nazwa użytkownika: </label>
+				<input type="text" name="username" />
+			</div>
+			<div>
+				<label>Hasło: </label>
+				<input type="password" name="password" />
+			</div>
+			<div>
+			<label>Powtórz hasło: </label>
+				<input type="password" name="passwordCopy" value="passowd" />
+			</div>
+			<div>
+				<input type="submit" name="submit"  value="Zarejestruj" />
+			</div>
+			</form>
+			<div>
+				<a href="#" onClick="get('/?template=User/login','.loginBox');">Zaloguj</a>
+			</div>
+		
